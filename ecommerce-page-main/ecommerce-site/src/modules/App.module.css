@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Space+Mono:ital@1&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Space Mono", monospace;
+}
+.sneakers{
+  margin-left: 14%;
+  font-size: 35px;
+}
+button{
+  border: none;
+  background-color: white;
+}
+.navbar-component{
+  display: flex;
+  height: 100px;
+  margin-top: 30px;
+}
+.nav-buttons{
+  display: flex;
+  gap: 40px;
+  height: 10px;
+  margin-left: 100px;
+  margin-top: 14px;
+
+}
+.nav-button{
+  font-size: 18px;
+  font-weight: 400;
+  justify-content: center;
+}
+.nav-button:hover{
+  font-weight: 600;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 70px;
+}
+.shopping-cart{
+  margin-left: 400px;
+  background-image: url('../images/icon-cart.svg');
+  width: 35px;
+  height: 33px;
+  background-size: cover;
+}
+
+.profile-picture{
+  margin-bottom: 20px;
+  background-image: url('../images/image-profile.png');
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+}
+.line{
+  background-color: rgb(228, 224, 224);
+  width: 75%;
+  height: 3px;
+  margin-left: 12.5%;
+  margin-top: -30px;
+}
+.slider-component{
+  width: 37%;
+  height: 660px;
+  margin-left: 7%;
+  margin-bottom: 20px;
+}
+.main-components{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 200px;
+}
+.price-component{
+  width: 30%;
+  height: 660px;
+  
+}
+.sneaker-company{
+  color: hsl(26, 100%, 55%);
+}
+.fall-limited{
+  text-overflow: wrap;
+  font-size: 40px;
+}
+.sneaker-company{
+  margin-top: 25px;
+}
+.fall-limited{
+  margin-top: 30px;
+}
+.paraghraph{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.price-calculator{
+  width: 100%;
+  height: 300px;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .nav-buttons{
+    display: none;
+  }
+  .line{ 
+    display: none;
+   }
+  .main-components{
+    height: 370px;
+    margin-top: 250px;
+  }
+  .price{
+    position: absolute;
+    top: 580px;
+    left: 300px;
+  }
+  .price-component{
+    margin-left: -226px;
+  }
+  .sneaker-company{
+    position: absolute;
+    top: 460px;
+  }
+  .fall-limited{
+    position: absolute;
+    top: 480px;
+  }
+  .paraghraph{
+    position: absolute;
+    top: 590px;
+  }
+  .sneakers{
+    margin-top: -17px;
+  }
+}

@@ -1,0 +1,65 @@
+.bigImg {
+    border-radius: 5%;
+    width: 50%;
+  }
+  
+  .smallImg {
+    border-radius: 10%;
+    width: 8%;
+  }
+  
+  .smallImgContainer {
+    display: flex;
+    gap: 50px;
+  }
+  .smallImg:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .smallImg.selected {
+    border-radius: 10%;
+    border: 3.5px solid orange;
+    opacity: 0.8;
+  }
+  
+  .container {
+    margin-left: 33%;
+    margin-top: 40px;
+  }
+  
+  
+  .lightbox {
+    background-color: black;
+    position: absolute;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .closebtn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .arrow1 {
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 30%;
+    top: 50vh;
+  }
+  .arrow2 {
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    right: 30%;
+    top: 50vh;
+  }
